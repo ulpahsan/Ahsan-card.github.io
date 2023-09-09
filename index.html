@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 15%;
+            background-color: gray;
+        }
+        .container{
+            width: 350px;
+            height: 420px;
+          
+            position: relative;
+            background-color: #333d52;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        .logo{
+            position: absolute;
+            width: 150px;
+            border: 10px solid  #a434ba;
+            height: 150px;
+            border-radius: 50%;
+            top: -17%;
+            left: 25%;
+        }
+        .logo img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            
+            /* top: 3px;
+            left: 5px; */
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            object-fit: cover;
+        }
+        .text-body{
+            /* position: absolute; */
+            top: 0;
+            left: 0;
+            justify-content: center;
+            margin-top: 120px;
+            
+        }
+        .text-body h1{
+            color: #a434ba;
+            font-family: sans-serif;
+            font-size: 40px;
+        }
+        .text-body #para1{
+            color: #a29da3;
+          
+            margin-top: 18px;
+            font-size: 18px;
+        }
+        .text-body #para2{
+            color: #fff;
+            font-size: 30px;
+            text-transform: capitalize;
+            margin-top: 18px;
+        }
+        #icon{
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                gap: 10px;
+                align-items: center;
+                align-content: center;
+                text-align: center;
+        }
+        #icon #icon1{
+            width: 60px;
+            height: 60px;
+            background-color:  #a434ba;
+            border-radius: 50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           transition-property: background;
+           transition-duration: 1s;
+           transform-origin: ease-in-out;
+        }
+
+     
+        #icon1 .fa-brands{
+            color: #fff;
+            font-size: 25px;
+            
+        }
+       #icon #icon1:hover{
+            background-color: black;
+        }
+        #text22{
+            width: 100%;
+            background-color: #a434ba;
+            margin-top: 20px;
+            height: 70px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            display: flex;
+            color: #fff;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="logo">
+                <img src="ashan.jpg" alt="">
+            </div>
+           <div class="text-body">
+            <h1>Ahsan Shabbir</h1>
+            <p id="para1">Ahsanshabbir755@gmail.com</p>
+            <p id="para2"> Junior | Devoloper</p>
+           </div>
+         
+           <div id="icon">
+        
+
+
+            <div id="icon1">
+             <a href="https://www.facebook.com/profile.php?id=100058190024230"target="_blank"><i class="fa-brands fa-facebook"></i></a>   
+            </div>
+            <div id="icon1">
+              <a href=""target="_blank"> <i class="fa-brands fa-twitter"></i></a> 
+            </div>
+            <div id="icon1">
+             <a href="" target="_blank"<i class="fa-brands fa-youtube"></i></a>   
+            </div>
+            <div id="icon1">
+
+               <a href=""target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+       
+
+
+           </div>
+
+           <div id="text22">
+            <p> Ahsan Shabbir | Junior Devoloper </p>
+           </div>
+        </div>
+</body>
+</html>
